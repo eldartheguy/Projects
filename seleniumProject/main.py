@@ -7,10 +7,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
-EMAIL = 'johnabruzzi123@mail.com'
-PASSWORD = 'michaelscofield1'
+EMAIL = YOUR_USERNAME
+PASSWORD = YOUR_PASSWORD
 URL = 'https://www.linkedin.com/login'
-JOB_SEARCH = 'data analyst'
+JOB_SEARCH = YOUR_JOB_SEARCH
 
 all_job_ids = set()
 all_job_urls = set()
